@@ -1,0 +1,5 @@
+make all:
+	g++ -o ./client client.cpp
+	g++ -o ./aws aws.cpp
+	g++ -o ./writeTest writeTest
+	g++ -o ./serverB serverB
